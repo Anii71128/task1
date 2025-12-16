@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .grid-bnpt {
+    grid-template-areas:
+      "ppid ppid lpse jdih inspektorat pelayanan"
+      "ppid ppid lapor fktp damai call"
+      "span museum sidebar sidebar sidebar sidebar";
+  }
+
+  @media (max-width: 1023px) {
+    .grid-bnpt {
+      grid-template-areas:
+        "ppid ppid"
+        "lpse jdih"
+        "inspektorat pelayanan"
+        "lapor fktp"
+        "damai call"
+        "span museum"
+        "sidebar sidebar";
+    }
+  }
+}
