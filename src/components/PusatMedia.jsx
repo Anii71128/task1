@@ -58,7 +58,7 @@ export default function PusatMedia() {
         {articles.map((item) => (
           <div
             key={item.id}
-            className="bg-gray-50 rounded-xl shadow-sm p-6 group cursor-pointer"
+            className="bg-gray-50 rounded- shadow-sm p-6 group cursor-pointer"
           >
             <h3 className="text-[14px] font-semibold text-gray-900 group-hover:text-red-600 transition-colors">
               {item.title}
@@ -68,7 +68,7 @@ export default function PusatMedia() {
               {item.body}
             </p>
 
-            <div className="overflow-hidden rounded-xl">
+            <div className="overflow-hidden rounded-sm">
               <img
                 src={item.image}
                 alt={item.title}

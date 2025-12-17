@@ -66,7 +66,7 @@ export default function Hero() {
       <div className="relative -mt-14 z-10 px-6">
         <div className="max-w-[1080px] mx-auto flex bg-white shadow-[0_10px_30px_rgba(0,0,0,0.18)]">
           {/* LABEL MERAH */}
-          <div className="w-[240px] bg-[#8A0000] flex items-center px-8">
+          <div className="w-[240px] bg-[#B10303] flex items-center px-8">
             <h2 className="text-white text-[18px] font-bold font-jakarta tracking-wide">
               Informasi Terbaru
             </h2>

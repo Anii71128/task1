@@ -311,7 +311,7 @@ function Card({ icon, label, variant }) {
   return (
     <div
       className={`
-        group rounded-xl border p-6 flex flex-col items-center justify-center text-center
+        group rounded-sm border p-6 flex flex-col items-center justify-center text-center
         transition-all duration-300 cursor-pointer
         ${bg}
         hover:bg-red-600 hover:shadow-lg
